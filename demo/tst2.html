@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Know_Rakshith</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link your custom stylesheet -->
+  </head>
+  <body>
+    <div class="search-container">
+      <div class="logo">
+        <img src="imgs/mylogo2.png" alt="My Logo" />
+      </div>
+      <div class="search-bar">
+        <button class="search-icon">
+          <img src="imgs/search.png" alt="Search Symbol" />
+        </button>
+
+        <input type="text" placeholder="Search About Rakshith" />
+        <div class="profile-picture">
+          <img src="imgs/face.png" alt="Profile Picture" class="profile-pic" />
+        </div>
+      </div>
+      <div class="toprow">
+        <button class="mailadd" onclick="openEmail()">
+          <p class="gmail-p">Gmail</p>
+        </button>
+        <button class="linkdinadd" onclick="redirectToLinkedIn()">
+          <p class="Linkdin-p">LinkedIn</p>
+        </button>
+
+      </div>
+      <button class="Aboutadd" id="testid">
+        <p class="about-p" onclick="appendptag()">About</p>
+        <div id="text-holder" style="display:none;">
+          <p>Hi I am Rakshith</p>
+        </div>
+      </button>
+      <div class="about-textbox-container">
+        <p type="text" class="about-textbox" value="Hi! I am Rakshith fgfrg egrge uyfywdfytwqfd udgfuywdqfyfd vdudyqfdf">
+      </div>
+    </div>
+
+    <div class="popup">
+      <span class="close">&times;</span>
+      <img class="popup-image" src="" alt="Pop-up Image" />
+    </div>
+
+    <script src="./script.js">
+      
+    </script>
+  </body>
+</html>
